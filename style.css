@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./image.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: font-family: 'Audiowide', cursive;
+    margin: 0;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+    color: rgb(190, 202, 212);
+}
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 4rem;
+    /* line-height: 1; */
+    margin: 1rem 2rem;
+    color: rgb(190, 202, 212);
+}
+
+#days, #hours, #mins, #secs{
+    text-align: center;
+}
+
+span{
+    font-size: x-large;
+    padding: 5rem 2rem;
+    color:  rgb(190, 202, 212);
+}
+
+p#secs{
+    margin: 2px 2px;
+}
+p#days{
+    margin: 2px 2px;
+}
+p#hours{
+    margin: 2px 2px;
+}
+p#mins{
+    margin: 2px 2px;
+}
+
+
+
